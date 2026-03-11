@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio | Lahatra</title>
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=playfair-display:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div
+      class="theme-div fixed z-10 bottom-4 right-4 bg-black dark:bg-white dark:text-black text-white p-2 rounded-4xl overflow-hidden text-lg w-12.5 h-12.5"
+    >
+      <button
+        class="w-full moon absolute left-0 top-0 cursor-pointer h-full flex justify-center items-center"
+      >
+        <i class="fa-solid fa-moon"></i>
+      </button>
+
+      <button
+        class="w-full sun -left-full absolute top-0 cursor-pointer h-full flex justify-center items-center"
+      >
+        <i class="fa-solid fa-sun"></i>
+      </button>
+    </div>
+
+    <section
+      class="hero bg-grey-high bg-[url(/public/img/fly_ing.png)] bg-no-repeat bg-contain bg-center h-screen flex items-center justify-center flex-col gap-2.5"
+    >
+      <h1
+        class="text-4xl tracking-[2.8rem] font-playfair-display text-zinc-800"
+      >
+        PORTOFOLIO
+      </h1>
+      <p class="text-md text-gray-700 tracking-widest">discover my world</p>
+    </section>
+
+    <main class="about-me grid grid-cols-2 h-screen items-center">
+      <div
+        class="profil-img relative bg-[url(/public/img/fly_bird.png)] bg-no-repeat bg-top-right flex justify-center before:content-[''] before:absolute before:top-1/4 -z-1 before:left-1/2 before:-translate-1/2 before:w-50 before:h-98 before:border before:border-solid before:border-zinc-800"
+      >
+        <img
+          src="./public/img/Lahatra_photo.png"
+          alt="profil-photo"
+          class="w-100 element h-112.5 p-6 object-cover object-[0_25%] relative z-1"
+        />
+      </div>
+
+      <div
+        class="profil-description h-full bg-grey-high flex flex-col justify-center items-center p-8 gap-8"
+      >
+        <h1
+          class="text-center element font-playfair-display tracking-[0.5rem] text-3xl font-semibold text-zinc-800"
+        >
+          WHO'S ME ?
+        </h1>
+        <div class="profil-description element">
+          <p class="text-justify text-gray-800 font-light">
+            Hey, my name is <b>RAJAONARISON Andrianamaro Lahatra</b>, born in
+            July 2009 in Andoharanofotsy. I am currently studying at
+            <b>EMIT (Ecole de Management et d'Innovation Technologique)</b> in
+            Anrainjato.
+          </p>
+
+          <p class="text-justify text-gray-800 font-light mt-4">
+            I am passionate about web development and design. I am still a
+            beginner, but I believe that one day I will surpass senior
+            developers.
+          </p>
+        </div>
+
+        <button
+          class="pl-6 pr-6 pt-2 element pb-2 bg-zinc-800 text-zinc-100 font-bold tracking-widest text-sm rounded-sm relative before:content-['>'] before:absolute before:top-1/2 before:-translate-y-1/2 before:left-0 hover:before:left-3 before:transition-all before:opacity-0 hover:before:opacity-[100] before:duration-200"
+        >
+          <span class="ml-2">See my CV</span>
+        </button>
+      </div>
+    </main>
+
+    <section class="section-experiences h-[80vh] flex items-center">
+      <div
+        class="title bg-[url(/public/img/three.png)] bg-size-[155px] bg-position-[top_right] bg-no-repeat h-full flex justify-center items-center"
+      >
+        <h1 class="-rotate-90 font-playfair-display tracking-[0.8rem] text-xl">
+          EXPERIENCES
+        </h1>
+      </div>
+
+      <section
+        class="experience-box gap-2 bg-grey-high h-full p-4 w-full flex items-center justify-evenly before:content-[''] before:bg-zinc-800 before:absolute before:top-1/2 before:-translate-y-1/2 before:h-0.5 before:rounded-2xl before:w-[80%] relative z-0"
+      >
+        <div
+          class="experience-card element bg-grey-hard w-50 relative z-1 rounded-b-md"
+        >
+          <img
+            src="./public/img/programming_window.png"
+            class="mb-8 w-full h-35 object-cover"
+            alt=""
+          />
+          <h4
+            class="date text-2xl font-playfair-display text-center text-gray-800"
+          >
+            2020
+          </h4>
+          <p
+            class="font-light mt-2 font-open-sans text-sm p-4 text-center text-zinc-700"
+          >
+            Completed a computer science course at Mahamasina, gaining practical
+            skills in IT and digital technologies.
+          </p>
+        </div>
+
+        <div
+          class="experience-card element bg-grey-hard w-50 relative z-1 rounded-b-md"
+        >
+          <img
+            src="./public/img/bacc.png"
+            class="mb-8 w-full h-35 object-cover"
+            alt=""
+          />
+          <h4
+            class="date text-2xl font-playfair-display text-center text-gray-800"
+          >
+            2024
+          </h4>
+          <p
+            class="font-light mt-2 font-open-sans text-sm p-4 text-center text-zinc-700"
+          >
+            Obtained the <b>Scientific Baccalaureate (Series D)</b> with
+            <b>Fairly Good Honors</b>, specializing in mathematics, physics, and
+            natural sciences.
+          </p>
+        </div>
+
+        <div
+          class="experience-card element bg-grey-hard w-50 relative z-1 rounded-b-md"
+        >
+          <img
+            src="./public/img/design.png"
+            class="mb-8 w-full h-35 object-cover"
+            alt=""
+          />
+          <h4
+            class="date text-2xl font-playfair-display text-center text-gray-800"
+          >
+            2025
+          </h4>
+          <p
+            class="font-light mt-2 font-open-sans text-sm p-4 text-center text-zinc-700"
+          >
+            Specialized certification in <b>web design</b> obtained during a
+            <b>youth training program in Ivandry</b>.
+          </p>
+        </div>
+      </section>
+    </section>
+
+    <section
+      class="skills grid grid-rows-[80px_1fr_1fr] grid-cols-[450px_450px] p-8 gap-4 h-screen"
+    >
+      <h1
+        class="text-5xl element col-span-2 font-playfair-display tracking-widest text-zinc-900 font-light"
+      >
+        Skills
+      </h1>
+      <div
+        class="skills-div flex justify-center items-center p-2 shadow shadow-neutral-400 rounded-md"
+      >
+        <div class="grid grid-cols-2">
+          <div
+            class="skill-represent element flex justify-center items-center row-span-2"
+          >
+            <img
+              class="w-32 h-32 object-cover"
+              src="./public/img/frontend.png"
+              alt=""
+            />
+          </div>
+          <h2 class="font-bold text-lg">Front-end Developpers</h2>
+          <p class="font-open-sans text-[#374151]">
+            HTML, CSS (Tailwind), JavaScript, animations, sliders, UI design.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="skills-div flex element justify-center items-center p-2 shadow shadow-neutral-400 rounded-md"
+      >
+        <div class="grid grid-cols-2">
+          <div
+            class="skill-represent flex justify-center items-center row-span-2"
+          >
+            <img
+              class="w-32 h-32 object-cover"
+              src="./public/img/backend.png"
+              alt=""
+            />
+          </div>
+          <h2 class="font-bold text-lg">Back-end Developpers</h2>
+          <p class="font-open-sans text-[#374151]">
+            PHP, MySQL, user authentication systems, data management.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="skills-div element flex justify-center items-center p-2 shadow shadow-neutral-400 rounded-md"
+      >
+        <div class="grid grid-cols-2">
+          <div
+            class="skill-represent flex justify-center items-center row-span-2"
+          >
+            <img
+              class="w-32 h-32 object-cover"
+              src="./public/img/designer.png"
+              alt=""
+            />
+          </div>
+          <h2 class="font-bold text-lg">Graphic Designer</h2>
+          <p class="font-open-sans text-[#374151]">
+            UI/UX, interface design, animations, graphic tools.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="skills-div element flex justify-center items-center p-2 shadow shadow-neutral-400 rounded-md"
+      >
+        <div class="grid grid-cols-2">
+          <div
+            class="skill-represent flex justify-center items-center row-span-2"
+          >
+            <img
+              class="w-32 h-32 object-cover"
+              src="./public/img/system.png"
+              alt=""
+            />
+          </div>
+          <h2 class="font-bold text-lg">Autonomy</h2>
+          <p class="font-open-sans text-[#374151]">
+            Ability to learn, experiment, and create complete projects
+            independently.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="section-project bg-grey-high h-screen grid grid-cols-[250px_1fr] grid-rows-[100px_1fr] gap-4"
+    >
+      <div class="project-introduction row-span-2">
+        <h4
+          class="w-full p-4 pr-0 pl-8 text-zinc-900 font-playfair-display text-4xl tracking-widest font-light"
+        >
+          PROJECT
+        </h4>
+
+        <p
+          class="text-sm p-4 pr-0 font-open-sans font-light text-zinc-700 text-center"
+        >
+          Explore my projects, where I combine creativity, design, and web
+          development to build interactive, inspiring, and practical experiences
+          that showcase my skills and ideas.
+        </p>
+      </div>
+
+      <div
+        class="project-wrapper bg-white row-start-2 row-end-3 col-start-2 flex justify-evenly items-center overflow-hidden relative"
+      >
+        <svg
+          width="543"
+          height="297"
+          class="absolute z-0"
+          viewBox="0 0 543 297"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 296C0 292.58 4.97321 287.513 8 286C8.59631 285.702 9.46667 286.4 10 286C12.2628 284.303 13.8271 281.811 16 280C17.8466 278.461 20.1534 277.539 22 276C24.1729 274.189 25.7125 271.664 28 270C33.0864 266.301 38.767 263.489 44 260C46.7735 258.151 49.1733 255.767 52 254C54.5283 252.42 57.7562 251.963 60 250C63.2126 247.189 64.3801 242.262 68 240C70.2614 238.587 73.4359 240.733 76 240C78.3112 239.34 80.077 237.442 82 236C85.415 233.439 88.5264 230.481 92 228C95.7894 225.293 100.144 222.571 104 220C112.589 214.274 122.996 212.502 132 208C139.81 204.095 148.576 198.693 158 196C159.923 195.451 162 196 164 196C166 196 168.077 196.549 170 196C172.867 195.181 175.208 193.047 178 192C187.608 188.397 198.74 188.63 208 184C210.15 182.925 211.72 180.76 214 180C215.897 179.368 218.027 180.329 220 180C224.927 179.179 229.599 176.201 234 174C236.667 172.667 239.892 172.108 242 170C243.491 168.509 243.057 165.886 244 164C244.422 163.157 245.434 162.754 246 162C247.442 160.077 248.849 158.11 250 156C252.876 150.727 257.191 139.77 262 134C263.811 131.827 266 130 268 128C270 126 272.233 124.209 274 122C274.931 120.836 274.946 119.054 276 118C277.7 116.3 280 115.333 282 114C284 112.667 285.768 110.893 288 110C292.506 108.197 297.396 107.535 302 106C303.414 105.529 304.63 104.587 306 104C309.3 102.586 312.536 100.945 316 100C329.188 96.4034 338.99 95.9136 352 90C354.188 89.0053 355.85 87.075 358 86C359.886 85.0572 362 84.6667 364 84C366 83.3333 368.354 83.317 370 82C371.877 80.4984 372.123 77.5016 374 76C375.646 74.683 378.114 74.9428 380 74C383.477 72.2616 386.427 69.5313 390 68C391.226 67.4748 392.667 68 394 68C395.333 68 396.693 68.2615 398 68C400.067 67.5865 402.062 66.8305 404 66C406.74 64.8256 409.133 62.8191 412 62C413.923 61.4506 416.032 62.3578 418 62C423.409 61.0166 428.823 59.849 434 58C438.212 56.4959 441.929 53.8506 446 52C449.268 50.5144 452.862 49.7435 456 48C458.914 46.3812 461.106 43.6538 464 42C465.83 40.954 468.062 40.8305 470 40C472.74 38.8256 475.519 37.6538 478 36C481.552 33.6321 484.448 30.3679 488 28C490.481 26.3462 493.519 25.6538 496 24C497.569 22.954 498.528 21.1779 500 20C505.5 15.5999 513.799 11.1003 520 8C520.596 7.70184 521.346 8.13074 522 8C524.695 7.46094 527.357 6.75513 530 6C532.027 5.42084 534.114 4.94281 536 4C538.15 2.92502 540 1.33334 542 0"
+            fill="none"
+            stroke-width="1"
+            stroke="#000000"
+            transform="translate(0.5 0.5)"
+          />
+        </svg>
+
+        <div
+          class="project-card relative element z-1 active w-50 border-solid border border-zinc-800 bg-white"
+        >
+          <a
+            href="https://laatr34.github.io/Citat.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="absolute right-2 top-2 bg-white p-1 pl-2 pr-2 rounded-sm"
+            ><i class="fa-solid fa-up-right-from-square"></i
+          ></a>
+
+          <img
+            src="./public/img/citatio.png"
+            class="w-full h-50 mb-2 object-cover"
+            alt=""
+          />
+
+          <h4 class="text-xl pl-2 pr-2 mt-4 text-[#374151]">Citat.io</h4>
+          <p class="text-sm pl-2 pr-2 font-open-sans mt-1 pb-2 text-[#4b5563]">
+            Citat.io is a simple website where users can discover inspiring
+            quotes from different categories and enjoy thoughtful words every
+            day.
+          </p>
+        </div>
+
+        <div
+          class="project-card relative z-1 w-50 element border-solid border border-zinc-800 bg-white"
+        >
+          <a
+            href="https://laatr34.github.io/Caf-de-Flore/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="absolute right-2 top-2 bg-white p-1 pl-2 pr-2 rounded-sm"
+            ><i class="fa-solid fa-up-right-from-square"></i
+          ></a>
+
+          <img
+            src="./public/img/cafe_de_flore.png"
+            class="w-full h-50 mb-2 object-cover"
+            alt=""
+          />
+
+          <h4 class="text-xl pl-2 pr-2 mt-4 text-[#374151]">Café de FLore</h4>
+          <p class="text-sm pl-2 pr-2 font-open-sans mt-1 pb-2 text-[#4b5563]">
+            In the heart of Paris, the Café de Flore has welcomed artists and
+            thinkers for over a century, becoming a cultural symbol.
+          </p>
+        </div>
+
+        <div
+          class="project-card relative z-1 w-50 element border-solid border border-zinc-800 bg-white"
+        >
+          <a
+            href="https://laatr34.github.io/CPicker/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="absolute right-2 top-2 bg-white p-1 pl-2 pr-2 rounded-sm"
+            ><i class="fa-solid fa-up-right-from-square"></i
+          ></a>
+
+          <img
+            src="./public/img/c_pick.png"
+            class="w-full h-50 mb-2 object-cover"
+            alt=""
+          />
+
+          <h4 class="text-xl pl-2 pr-2 mt-4 text-[#374151]">Color Picker</h4>
+          <p class="text-sm pl-2 pr-2 font-open-sans mt-1 pb-2 text-[#4b5563]">
+            Color picker is a simple tool that allows users to easily select,
+            preview, and copy colors using multiple color formats.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="section-contact grid grid-cols-[0.5fr_1fr] h-screen justify-center items-center gap-4"
+    >
+      <div class="contact-img-represent p-2 h-screen bg-grey-high">
+        <div
+          class="w-full h-1/2 relative before:content-[''] before:absolute before:w-1/3 before:h-full before:border-zinc-800 before:border before:border-solid before:top-4 before:left-4 before:z-2"
+        >
+          <img
+            class="bg-white w-1/3 h-full object-contain z-1 relative"
+            src="./public/img/grib1.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          class="w-full flex justify-end h-1/2 relative before:content-[''] before:absolute before:w-1/3 before:h-full before:border-zinc-800 before:border before:border-solid before:bottom-4 before:right-4 before:z-2"
+        >
+          <img
+            class="bg-white w-1/3 h-full object-contain"
+            src="./public/img/grib2.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="contact-me max-w-175 ml-auto mr-auto">
+        <h1 class="text-4xl font-playfair-display mb-2">Drop me a message</h1>
+        <p class="text-[#374151] font-open-sans text-sm font-light mb-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+          deleniti dignissimos eum quisquam ipsum harum ipsam!
+        </p>
+
+        <form action="#" class="form-container grid grid-cols-2 gap-4">
+          <div class="input-box flex flex-col">
+            <label
+              for="name"
+              class="mb-1 font-poppins tracking-wider font-semibold text-md"
+              >Name</label
+            >
+            <input
+              type="text"
+              class="border-b font-light font-open-sans text-[#1f2937] border-[#111827] outline-0 pb-2"
+              name="interest_name"
+              id="name"
+            />
+          </div>
+
+          <div class="input-box flex flex-col">
+            <label
+              for="mail"
+              class="mb-1 font-poppins tracking-wider font-semibold text-md"
+              >Email</label
+            >
+            <input
+              type="email"
+              name="interest_email"
+              id="mail"
+              class="border-b font-light font-open-sans text-[#1f2937] border-[#111827] outline-0 pb-2"
+            />
+          </div>
+
+          <div class="input-box col-span-2 flex flex-col">
+            <label
+              for="message"
+              class="mb-1 font-poppins tracking-wider font-semibold text-md"
+              >Message</label
+            >
+            <textarea
+              name="interest_message"
+              id="message"
+              class="border-b font-light font-open-sans text-[#1f2937] border-[#111827] outline-0 pb-2 resize-none"
+            ></textarea>
+          </div>
+        </form>
+
+        <div class="flex justify-between mt-4">
+          <ul class="flex justify-center items-center gap-2">
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><i class="fa-brands fa-facebook text-lg"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" rel="noopener noreferrer"
+                ><i class="fa-brands fa-telegram"></i
+              ></a>
+            </li>
+          </ul>
+
+          <button
+            class="bg-zinc-900 pl-8 pr-8 pt-2 pb-2 font-open-sans rounded-sm text-zinc-50 border-solid border border-zinc-50 tracking-wide font-bold"
+          >
+            Submit
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="p-3 bg-grey-high text-center">
+      <p style="font-size: 12px" class="text-zinc-700">
+        (c) 2026 copyrights. all rights reserved
+      </p>
+    </footer>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
